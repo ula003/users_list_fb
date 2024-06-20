@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 100px;
+    padding: 100px 200px;
+    button {
+        height:42px;
+        width: 232px;
+        background-color: #0071E3;
+        color: white;
+        border: transparent;
+        border-radius: 8px
+    };
+}

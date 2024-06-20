@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 300px
+}
+button {
+    height:42px;
+    width: 232px;
+    background-color: #0071E3;
+    color: white;
+    border: transparent;
+    border-radius: 8px
+};

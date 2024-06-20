@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+button {
+    height:42px;
+    width: 232px;
+    background-color: #0071E3;
+    color: white;
+    border: transparent;
+    border-radius: 8px
+};
+h1{
+    align-self: center;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.users{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    .user{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px;
+        border: solid 1px #007FFF;
+        border-radius: 8px;
+        background-color: #F0F0F0;
+        p{
+            color: black;
+            opacity: 0.55;
+        }
+    }
+}
